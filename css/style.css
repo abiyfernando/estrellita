@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fondo2.jpg');
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+/* Botones */
+.boton1 {
+    display: inline-block;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 35%;
+    padding: 10px 20px;
+    background-color: #f8b7d0; /* Color rosa pastel */
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.boton2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 250px;
+    background-color: #f8b7d0; /* Color rosa pastel */
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton1:hover {
+    background-color: #f48bb3; /* Color rosa más oscuro al pasar el cursor */
+}
+.boton2:hover {
+    background-color: #f48bb3; /* Color rosa más oscuro al pasar el cursor */
+}
+
+.regresar {
+    margin-top: 10px;
+    background-color: #f4a6c6;
+}
+
+.regresar:hover {
+    background-color: #ee719a;
+}
+
+.textote {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la carta */
+.carta {
+    position: relative;
+    top: 120%; /* Ajusta según la altura de tu logo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    max-width: 130px;
+    height: 110px;
+    margin: 15px auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Borde redondeado para que luzca mejor */
+}
+.fto{
+    max-width: 280px;
+    height: 210px;
+    margin: 15px auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Borde redondeado para que luzca mejor */
+}
+
+.texto {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carta {
+        width: 90%; /* Se ajusta a un ancho más pequeño en pantallas móviles */
+        padding: 15px;
+    }
+
+    .titulo {
+        font-size: 20px; /* Se reduce el tamaño del título */
+    }
+
+    .texto {
+        font-size: 14px; /* Se reduce el tamaño del texto */
+    }
+    .boton1 {
+        font-size: 16px;
+        width: 80%;
+    }
+    .boton2 {
+        font-size: 16px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('../img/fondoreal.jpeg');
+        background-size: cover; /* Asegura que la imagen cubra el fondo en móviles */
+        background-position: center;
+    }
+
+    .carta {
+        width: 80%; /* Ancho completo en pantallas muy pequeñas */
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 18px; /* Título más pequeño para pantallas muy pequeñas */
+    }
+
+    .texto {
+        font-size: 12px; /* Texto más pequeño */
+    }
+
+    .textote {
+        margin-top: 30px;
+        margin-bottom: 50px; /* Reduce el margen inferior en pantallas pequeñas */
+    }
+    .boton1 {
+        font-size: 14px;
+        width: 100px;
+        margin-left: 10px;
+        margin-right: 93px;
+    }
+    .boton2 {
+        font-size: 14px;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+}
