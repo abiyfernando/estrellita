@@ -100,6 +100,10 @@ header {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
+    iframe{
+        height: 200px;
+        width: 250px;
+    }
     .carta {
         width: 90%; /* Se ajusta a un ancho más pequeño en pantallas móviles */
         padding: 15px;
