@@ -128,7 +128,7 @@ header {
 
 @media (max-width: 480px) {
     body {
-        background-image: url('../img/fondoreal.jpeg');
+        background-image: url('../img/fondoabi2.jpeg');
         background-size: cover; /* Asegura que la imagen cubra el fondo en móviles */
         background-position: center;
     }
@@ -163,4 +163,5 @@ header {
     }
 
 }
+
 
